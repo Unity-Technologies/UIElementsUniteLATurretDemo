@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 4dfd03327ba9e104cb97af510d8742b6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base_Tower_Lvl0
+    100002: Base_Tower_Lvl0_Geom
+    100004: Base_Tower_Lvl1
+    100006: Base_Tower_Lvl1_Geom
+    100008: Base_Tower_Lvl2
+    100010: Base_Tower_Lvl2_Geom
+    100012: Base_Tower_Lvl3
+    100014: Base_Tower_Lvl3_Geom
+    100016: Base_Tower_Lvl4
+    100018: Base_Tower_Lvl4_Geom
+    100020: Base_Tower_Lvl5
+    100022: Base_Tower_Lvl5_Geom
+    100024: //RootNode
+    100026: Mount_Top
+    100028: Mount_Top 1
+    100030: Mount_Top 2
+    100032: Mount_Top 3
+    100034: Mount_Top 4
+    100036: Mount_Top 5
+    400000: Base_Tower_Lvl0
+    400002: Base_Tower_Lvl0_Geom
+    400004: Base_Tower_Lvl1
+    400006: Base_Tower_Lvl1_Geom
+    400008: Base_Tower_Lvl2
+    400010: Base_Tower_Lvl2_Geom
+    400012: Base_Tower_Lvl3
+    400014: Base_Tower_Lvl3_Geom
+    400016: Base_Tower_Lvl4
+    400018: Base_Tower_Lvl4_Geom
+    400020: Base_Tower_Lvl5
+    400022: Base_Tower_Lvl5_Geom
+    400024: //RootNode
+    400026: Mount_Top
+    400028: Mount_Top 1
+    400030: Mount_Top 2
+    400032: Mount_Top 3
+    400034: Mount_Top 4
+    400036: Mount_Top 5
+    2300000: Base_Tower_Lvl0_Geom
+    2300002: Base_Tower_Lvl1_Geom
+    2300004: Base_Tower_Lvl2_Geom
+    2300006: Base_Tower_Lvl3_Geom
+    2300008: Base_Tower_Lvl4_Geom
+    2300010: Base_Tower_Lvl5_Geom
+    3300000: Base_Tower_Lvl0_Geom
+    3300002: Base_Tower_Lvl1_Geom
+    3300004: Base_Tower_Lvl2_Geom
+    3300006: Base_Tower_Lvl3_Geom
+    3300008: Base_Tower_Lvl4_Geom
+    3300010: Base_Tower_Lvl5_Geom
+    4300000: Base_Tower_Lvl5_Geom
+    4300002: Base_Tower_Lvl4_Geom
+    4300004: Base_Tower_Lvl3_Geom
+    4300006: Base_Tower_Lvl2_Geom
+    4300008: Base_Tower_Lvl1_Geom
+    4300010: Base_Tower_Lvl0_Geom
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

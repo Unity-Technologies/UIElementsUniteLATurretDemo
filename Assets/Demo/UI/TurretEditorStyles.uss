@@ -1,0 +1,55 @@
+﻿/* Module */
+
+.module-row {
+    flex-direction: row;
+    justify-content: center;
+    background-color: #313131;
+    margin-bottom: 2px;
+}
+
+.module-viewport {
+    width: 180px;
+    height: 180px;
+    justify-content: flex-end;
+}
+
+.unity-object-field .unity-base-field__label {
+    min-width: 60px;
+}
+
+.unity-object-field-display {
+    overflow: hidden;
+}
+
+/* Material */
+
+.material-image {
+    position: absolute;
+    top: -330px;
+    left: -30px;
+    height: 1000px;
+    width: 1000px;
+}
+
+.material-preview {
+    overflow: hidden;
+    height: 80px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.material-field {
+    width: 180px;
+}
+
+/* Other */
+
+.hoverable {
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.hoverable:hover {
+    border-color: #fff;
+}

@@ -1,0 +1,28 @@
+﻿<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <VisualElement class="module-row hoverable">
+        <VisualElement name="Material" class="preview material-preview">
+            <VisualElement name="MaterialImage" class="material-image" />
+            <uie:PropertyField binding-path="Material" class="material-field" />
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="module-row">
+        <VisualElement name="Backpack" class="hoverable preview module-preview" />
+    </VisualElement>
+
+
+    <VisualElement class="module-row">
+        <VisualElement name="Left" class="hoverable preview module-preview" />
+        <VisualElement name="Right" class="hoverable preview module-preview" />
+    </VisualElement>
+    <VisualElement class="module-row">
+        <VisualElement name="Cockpit" class="hoverable preview module-preview" />
+    </VisualElement>
+
+
+    <VisualElement class="module-row">
+        <VisualElement name="Tower" class="hoverable preview module-preview" />
+    </VisualElement>
+    <VisualElement class="module-row">
+        <VisualElement name="Base" class="hoverable preview module-preview" />
+    </VisualElement>
+</UXML>
