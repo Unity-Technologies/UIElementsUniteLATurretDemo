@@ -2,10 +2,9 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
-using UnityEditor.Experimental;
 
 [CustomEditor(typeof(Turret_UIElements))]
-public class TurretEditor_UIElements : UIElementsEditor
+public class TurretEditor_UIElements : Editor
 {
     TurretBuilder m_TurretBuilder;
 
@@ -33,6 +32,9 @@ public class TurretEditor_UIElements : UIElementsEditor
             AssetDatabase.LoadAssetAtPath<StyleSheet>(
                 "Assets/Demo/UI/TurretEditorStyles.uss");
         m_RootElement.styleSheets.Add(stylesheet);
+
+        // WILL BE FIXED: Unset padding on parent InspectorElement.
+        m_RootElement.RegisterCallback<AttachToPanelEvent>(OnRootAttachToPanel);
     }
 
     public void OnDisable()
@@ -174,6 +176,23 @@ public class TurretEditor_UIElements : UIElementsEditor
     public void SetVisualTree(VisualTreeAsset asset)
     {
         m_ModulesVisualTree = asset;
+    }
+
+    public override bool UseDefaultMargins()
+    {
+        return false;
+    }
+
+    private void OnRootAttachToPanel(AttachToPanelEvent evt)
+    {
+        var inspectorElement = (evt.target as VisualElement).GetFirstAncestorOfType<InspectorElement>();
+        if (inspectorElement == null)
+            return;
+
+        inspectorElement.style.paddingBottom = 0;
+        inspectorElement.style.paddingLeft = 0;
+        inspectorElement.style.paddingRight = 0;
+        inspectorElement.style.paddingTop = 0;
     }
 
     //

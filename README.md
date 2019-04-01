@@ -1,6 +1,6 @@
 # UIElements Unite LA Turret Demo
 
-**Minimum Supported Version: `2019.1.0a10`**
+**Minimum Supported Version: `2019.1.0b9`**
 
 This is the demo project derived from the Unite LA 2018 presentation on UI Elements.
 
